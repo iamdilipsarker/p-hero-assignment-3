@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convention  Center</title>
+    <!-- favicon link -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/3e980793ce.js" crossorigin="anonymous"></script>
     <!-- bootstrap css -->
@@ -15,9 +17,10 @@
 <body>
      <!-- header starts here -->
      <header>
-        <nav class="navbar navbar-expand-lg nav-font">
+       <!-- navbar starts here -->
+        <nav class="navbar navbar-expand-lg nav-font py-4">
             <div class="container">
-              <a class="navbar-brand navbar-color " href="#">Convention Center</a>
+              <a class="navbar-brand navbar-color " href="#">White Hall Convention Center</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"   aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -32,10 +35,102 @@
               </div>
             </div>
           </nav>
+          <!-- navbar ends here -->
+           <!-- banner section starts here -->
+      <section class="banner-section">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/banner.png" class="d-block w-100 banner-img" alt="wedding photo">
+              <div class="carousel-caption">
+                <h2 class="header-font text-white">The perfect venue for your next event </h2>
+                <p class="para-font text-white">A truly memorable Minnesota wedding reception site, the River’s Edge Convention Center hosts weddings, wedding receptions, and socials in a wide variety of sizes, set-ups, and celebration styles</p>
+                <a href="#"><button type="button" class="btn button-font btn-light text-primary mb-4 px-4">Book Now</button></a>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/banner1.jpg" class="d-block w-100 banner-img" alt="wedding photo">
+              <div class="carousel-caption">
+                <h2 class="header-font text-white">The perfect venue for your next event </h2>
+                <p class="para-font text-white">A truly memorable Minnesota wedding reception site, the River’s Edge Convention Center hosts weddings, wedding receptions, and socials in a wide variety of sizes, set-ups, and celebration styles</p>
+                <a href="#"><button type="button" class="btn button-font btn-light text-primary mb-4 px-4">Book Now</button></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/banner2.jpg" class="d-block w-100 banner-img" alt="wedding photo">
+              <div class="carousel-caption">
+                <h2 class="header-font text-white">The perfect venue for your next event </h2>
+                <p class="para-font text-white">A truly memorable Minnesota wedding reception site, the River’s Edge Convention Center hosts weddings, wedding receptions, and socials in a wide variety of sizes, set-ups, and celebration styles</p>
+                <a href="#"><button type="button" class="btn button-font btn-light text-primary mb-4 px-4">Book Now</button></a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- banner section ends here -->
     </header>
     <!-- header ends here -->
     <!-- main starts here -->
     <main>
+     <!-- card section starts here -->
+      <section class="card-section container">
+        <h1 class="text-center pt-5 our-package-header">Our Package</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 py-5 ">
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h3 class="card-title">$300</h3>
+                <h4>Business fair</h4>
+                <p>For most businesses event like book fair, craft fair.</p>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- card section ends here -->
         
     </main>
     <!-- main ends  here -->
