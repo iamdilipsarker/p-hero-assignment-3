@@ -8,8 +8,6 @@
 *{
     margin:0;
     padding:0;
-   
-     
 }
 
 
@@ -75,20 +73,16 @@ body{
 
 
 .cards-height-width{
-    
     width:100%;
 }
 .bs-card-height-width{
-    
     width:100%;
     position: relative;
     background-color: #35BDD0;
-    
 }
 
 .choose-plan-btn-link{
     text-decoration: none;
-
 }
 .choose-plan-button{
     padding:7px 30px;
@@ -133,12 +127,17 @@ body{
 .frequently-ask-section-img{
     width:30%;
     margin-left: 20px;
-    margin-top: 20px;
-    
-    
-    
+    margin-top: 33px;
 }
-
+/*-----------------------------------*\
+ subcribe section design strats here
+\*-----------------------------------*/
+.subcribes-section{
+    background-color: #03C6C7;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 100px;
+}
 
 
 
@@ -159,6 +158,8 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    height:250px;
+    box-sizing: border-box;
 }
 .footers-para{
     color:#D9DBE1;
@@ -185,6 +186,8 @@ h5{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 70px;
+
 }
 .link-store-img{
     display: flex;
