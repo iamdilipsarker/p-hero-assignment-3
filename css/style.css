@@ -128,7 +128,7 @@ body{
     
 }
 /*-----------------------------------*\
- subcribe section design strats here
+ subcribe section design starts here
 \*-----------------------------------*/
 .subcribes-section{
     background-color: #03C6C7;
@@ -148,7 +148,7 @@ body{
 
 
 /*-----------------------------------*\
- footer design strats here
+ footer design starts here
 \*-----------------------------------*/
 
 .footer-section {
@@ -195,7 +195,7 @@ h5{
 }
 
 /*-----------------------------------*\
- responsive design strats here
+ responsive design starts here
 \*-----------------------------------*/
 /* for medium screen */
 @media only screen and (min-width:768px) and (max-width:991px){
