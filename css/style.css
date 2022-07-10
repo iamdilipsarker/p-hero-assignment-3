@@ -197,7 +197,11 @@ h5{
 /*-----------------------------------*\
  responsive design starts here
 \*-----------------------------------*/
-/* for medium screen */
+
+/*-----------------*\
+ for medium screen
+\*-----------------*/
+
 @media only screen and (min-width:768px) and (max-width:991px){
 
     .frequently-ask-section-img{
@@ -207,7 +211,11 @@ h5{
         
     }
 }
-/* for small screen */
+
+/*-----------------*\
+ for small screen
+\*-----------------*/
+
 @media only screen and (max-width:767px){
 
     .frequently-ask-section-img{
